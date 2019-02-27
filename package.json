@@ -1,0 +1,28 @@
+{
+  "name": "data-vis",
+  "version": "1.0.4",
+  "description": "Data Vis",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js &",
+    "start:prod": "node server/index.js &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mida-project/data-vis.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mida-project/data-vis/issues"
+  },
+  "homepage": "https://github.com/mida-project/data-vis#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http-server": "^0.11.1",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.1",
+    "watch": "^1.0.2"
+  }
+}
